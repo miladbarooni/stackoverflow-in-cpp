@@ -115,7 +115,7 @@ enum MenuState{
     END
 };
 
-class AppDatabase { //Just holds runtime data. doesn't save anything
+class AppDatabase { //Just holds runtime data. doesn't save anything // I'd tried to use ORM but with lack of time ..... 
 public:
     vector<AbstractUser *> appUsers;
 
