@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/AbstractUser.h
+algorithm
+-
+string
+-
+vector
+-
+Content.h
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/Content.h
+
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/Content.h
+string
+-
+vector
+-
+iostream
+-
+
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/Exceptions.h
+exception
+-
+string
+-
+
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/User.h
+iostream
+-
+AbstractUser.h
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/AbstractUser.h
+
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/main.cpp
+iostream
+-
+string
+-
+AbstractUser.h
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/AbstractUser.h
+Exceptions.h
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/Exceptions.h
+User.h
+/home/milord/Desktop/advance programming/stackoverflow-in-cpp/User.h
+fstream
+-
+vector
+-
+

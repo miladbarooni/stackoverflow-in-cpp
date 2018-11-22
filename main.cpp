@@ -3,6 +3,8 @@
 #include "AbstractUser.h"
 #include "Exceptions.h"
 #include "User.h"
+#include <fstream>
+#include <vector>
 
 #ifdef _WIN32
 #define CLEAR "cls"
@@ -10,16 +12,23 @@
 #define CLEAR "clear"
 #endif
 
+
 using namespace std;
 
 
 enum MenuState {
     START,
     LOGGED_IN,
-    END
+    END,
+    CONTENT
 };
 
+int id_counter = 1;
+
 int main() {
+    cout << currentDateTime()<<endl;
+    // vector for questions
+    vector<Content> questions;
     User::init("SECRET_KEY");
     User * loggedInUser = nullptr;
     MenuState menuState = MenuState::START;
@@ -83,7 +92,7 @@ int main() {
                 break;
             }
             case MenuState::LOGGED_IN: {
-                cout << "d.delete account\nl. logout\ne. exit\n";
+                cout << "c.contents\nd. delete account\nl. logout\ne. exit\n";
                 cin >> choice;
                 switch (choice) {
                     case 'd': {
@@ -108,9 +117,67 @@ int main() {
                         menuState = MenuState::END;
                         break;
                     }
+                    case 'c':{
+                        menuState = MenuState::CONTENT;
+                        break;
+                    }
                     default: { // unknown input
                         last_message = "Unknown Input\n";
                         break;
+                    }
+
+                }
+            }
+            case MenuState :: CONTENT:{
+                cout << "c. create question\na. answer to questions\nm. mark as duplicate(Admin only)\nu. update questions\nd. delete questions\n";
+                cin >> choice;
+                switch(choice){
+                    case ('c'):
+                    {
+                        cout << "Please Enter your question:\n";
+                        string question;
+                        cin >> question;
+                        Content content(question, ContentType::QUESTION, id_counter++);
+                        loggedInUser->addContent(content);
+                        questions.push_back(content);
+                        cout<< "question added to contents"<<endl;
+                        menuState = MenuState ::LOGGED_IN;
+                        break;
+
+                    }
+
+                    case ('a'):
+                    {
+                        int question_number;
+                        string answer;
+                        for (auto &question : questions)
+                        {
+                            cout << question.getId() << ". " << question.getBody()<< endl;
+                        }
+                        cout << "\nPlease Enter your question number:";
+                        cin >> question_number;
+
+                        for (auto &question : questions)
+                        {
+                            if (question.getId() == question_number)
+                            {
+                                question.addVisits();
+                                cout << "q. " << question.getBody() << "\t(visits: " << question.getVisits() << ")" << endl;
+                                question.printAnswers();
+                                cout << endl << "Please enter your answer: ";
+                                cin >> answer;
+                                Content content(answer,ContentType::ANSWER,0);
+                                ContentRelation content_relation(content, ContentRelationType::ANSWER_TO);
+                                question.addToRelations(content_relation);
+                            }
+
+                        }
+                        break;
+                    }
+
+                    case('u'):
+                    {
+
                     }
 
                 }

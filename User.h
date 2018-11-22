@@ -6,8 +6,9 @@
 class User : public AbstractUser {
 public:
     User(string username, string password, string email, UserType type);
-
+    friend void write_of_log_file(string log_file,User* loggedInUser);
     static void init(const string &salt);
+    void addContent(Content content);
 
 public:
     void set_password(string password);
