@@ -26,7 +26,7 @@ class ContentRelation
     Content *destination;
     ContentRelationType content_relation_type;
 public:
-    ContentRelation(Content content, ContentRelationType type);
+    ContentRelation(Content& content, ContentRelationType type);
     Content* getDestination();
 };
 
@@ -40,10 +40,12 @@ public:
     void addVisits();
     int getVisits();
     vector<ContentRelation> relations;
+    void setBody(string new_content);
+    void setId(int new_id);
 private:
     string body;
     ContentType contentType;
-    int visits;
+    int visits; 
     int id;
 
 

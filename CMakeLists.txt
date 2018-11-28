@@ -10,4 +10,4 @@ add_executable(stackoverflow_in_cpp
     Exceptions.h
     main.cpp
     User.cpp
-    User.h Content.cpp Content.h)
+    User.h Content.cpp Content.h cmake-build-debug/Logger.cpp cmake-build-debug/Logger.h)

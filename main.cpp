@@ -5,6 +5,8 @@
 #include "User.h"
 #include <fstream>
 #include <vector>
+#include <ctime>
+
 
 #ifdef _WIN32
 #define CLEAR "cls"
@@ -14,6 +16,47 @@
 
 using namespace std;
 
+
+
+vector<Content> questions;
+// use for update a question
+void change_questions(Content& new_Q, int index, User* logInUser)
+{
+    string question_string = logInUser->contents[index-1].getBody();
+    for (auto &question:questions)
+    {
+        if (question_string == question.getBody())
+        {
+            question = new_Q;
+        }
+    }
+// now time to reset id ( where clean code goes true :D)
+    int id =1;
+    for (auto &question:questions)
+    {
+        question.setId(id);
+        id++;
+    }
+
+}
+// use for deleting a question
+void delete_from_questions(int index, User* logInUser)
+{
+    string question_string = logInUser->contents[index-1].getBody();
+    for (auto i = questions.begin(); i<questions.end(); i++)
+    {
+        if (question_string == i->getBody())
+        {
+            questions.erase(i);
+        }
+    }
+    int id =1;
+    for (auto &question:questions)
+    {
+        question.setId(id);
+        id++;
+    }
+}
 
 
 // Get current date/time, format is YYYY-MM-DD.HH:mm:ss
@@ -33,7 +76,7 @@ const std::string currentDateTime() {
 void write_on_log_file(string file_name, User* user)
 {
     fstream log_file;
-    log_file.open (file_name, ios::out);
+    log_file.open (file_name, ios::app);
     string log = user->email +  "\t" + user->username + "\t" + currentDateTime();
     log_file << log;
     log_file.close();
@@ -62,7 +105,7 @@ int main() {
     times_run << str;
     times_run.close();
     // finish
-    vector<Content> questions;
+
     User::init("SECRET_KEY");
     User * loggedInUser = nullptr;
     MenuState menuState = MenuState::START;
@@ -127,7 +170,7 @@ int main() {
                 break;
             }
             case MenuState::LOGGED_IN: {
-                cout << "c.contents\nd. delete account\nl. logout\ne. exit\n";
+                cout << "c. contents\nd. delete account\nl. logout\ne. exit\n";
                 cin >> choice;
                 switch (choice) {
                     case 'd': {
@@ -166,7 +209,7 @@ int main() {
                 break;
             }
             case MenuState :: CONTENT:{
-                cout << "c. create question\na. answer to questions\nm. mark as duplicate(Admin only)\nu. update questions\nd. delete questions\n";
+                cout << "c. create question\na. answer to questions\nm. mark as duplicate(Admin only)\nu. update questions\nd. delete questions\nb. back to user homepage\n";
                 cin >> choice;
                 switch(choice){
                     case ('c'):
@@ -203,8 +246,9 @@ int main() {
                                 question.printAnswers();
                                 cout << endl << "Please enter your answer: ";
                                 cin >> answer;
-                                Content content(answer,ContentType::ANSWER,0);
-                                ContentRelation content_relation(content, ContentRelationType::ANSWER_TO);
+                                Content answer_content(answer,ContentType::ANSWER, 0);
+                                ContentRelation content_relation(answer_content, ContentRelationType::ANSWER_TO);
+                                //cout << content_relation.getDestination()->getBody()<< endl;
                                 question.addToRelations(content_relation);
                             }
 
@@ -212,10 +256,53 @@ int main() {
                         break;
                     }
 
-                    case('u'):
-                    {
+                    case('u'): {
+                        int chosen_question;
+                        string new_question;
+                        system("clear");
+
+                        int flag = loggedInUser->printQuestions();
+                        if (flag == 0)
+                        {
+                            menuState = MenuState ::LOGGED_IN;
+                            break;
+                        }
+                        cout << "Your Questions are: " << endl;
+                        cout << "Which question do you want to update (1,2,..): ";
+                        cin >> chosen_question;
+                        cout << "Please enter edited question: " ;
+                        cin >> new_question;
+                        Content new_Q(new_question, ContentType::QUESTION , 0);
+                        change_questions(new_Q, chosen_question, loggedInUser);
+                        loggedInUser->changeQuestion(chosen_question, new_Q);
+                        break;
 
                     }
+                    case ('d'):
+                    {
+                        int chosen_question;
+                        string new_question;
+                        system("clear");
+
+                        int flag = loggedInUser->printQuestions();
+                        if (flag == 0)
+                        {
+                            menuState = MenuState ::LOGGED_IN;
+                            break;
+                        }
+                        cout << "Your Questions are: " << endl;
+                        cout << "Which question do you want to delete (1,2,..): ";
+                        cin >> chosen_question;
+                        delete_from_questions(chosen_question, loggedInUser);
+                        loggedInUser->deleteQuestion(chosen_question);
+                        break;
+                    }
+                    case('b'):
+                    {
+                        menuState = MenuState :: LOGGED_IN;
+                        break;
+                    }
+
                     default: { // unknown input
                         last_message = "Unknown Input\n";
                         break;

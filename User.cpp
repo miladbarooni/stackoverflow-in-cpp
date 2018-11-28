@@ -82,6 +82,31 @@ void User::init(const string &salt) {
     users.emplace_back("admin", "admin", "admin@stackoverflow.com", UserType::ADMIN);
 }
 
+int User::printQuestions(){
+    if (contents.size() == 0)
+    {
+        cout << "You have no question"<< endl;
+        return 0;
+    }
+    int label = 1;
+    for (auto &squestion : contents)
+    {
+        cout << "Q" << label << ". " << squestion.getBody() << endl;
+        label++;
+    }
+    return 1;
+
+}
 void User::addContent(Content content) {
     this->contents.push_back(content);
+}
+
+void User::changeQuestion(int index, Content new_question)
+{
+    contents[index-1].setBody(new_question.getBody());
+}
+
+void User::deleteQuestion(int index)
+{
+    contents.erase(contents.begin()+index -1 );
 }

@@ -38,15 +38,16 @@ void Content::addToRelations(ContentRelation content_relation)
 
 void Content::printAnswers()
 {
-    for (auto &content_relation : relations)
+    if (relations.size() == 0)
     {
-        cout << "A. " << content_relation.getDestination()->getBody()<<endl ;
-
+        cout << "\nNOTE:  There is no Answer for this question yet(Be first one)" << endl ;
     }
+    for (auto i = relations.begin(); i != relations.end(); ++i)
+        cout << "A." << i->getDestination()->getBody()<<endl;
 }
 
 
-ContentRelation::ContentRelation(Content content, ContentRelationType type)
+ContentRelation::ContentRelation(Content& content, ContentRelationType type)
 {
     this-> destination = &content;
     this-> content_relation_type = type;
@@ -55,4 +56,13 @@ ContentRelation::ContentRelation(Content content, ContentRelationType type)
 Content* ContentRelation::getDestination()
 {
     return this->destination;
+}
+
+void Content::setBody(string new_body) {
+    this->body = new_body;
+}
+
+void Content::setId(int new_id)
+{
+    this->id = new_id;
 }

@@ -48,10 +48,10 @@ RM = /snap/clion/54/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/milord/Desktop/advance programming/stackoverflow-in-cpp"
+CMAKE_SOURCE_DIR = /home/milord/Documents/stackoverflow-in-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/milord/Desktop/advance programming/stackoverflow-in-cpp/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/milord/Desktop/advance programming/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles" "/home/milord/Desktop/advance programming/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/milord/Desktop/advance programming/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ Content.cpp.s:
 	$(MAKE) -f CMakeFiles/stackoverflow_in_cpp.dir/build.make CMakeFiles/stackoverflow_in_cpp.dir/Content.cpp.s
 .PHONY : Content.cpp.s
 
+Logger.o: Logger.cpp.o
+
+.PHONY : Logger.o
+
+# target to build an object file
+Logger.cpp.o:
+	$(MAKE) -f CMakeFiles/stackoverflow_in_cpp.dir/build.make CMakeFiles/stackoverflow_in_cpp.dir/Logger.cpp.o
+.PHONY : Logger.cpp.o
+
+Logger.i: Logger.cpp.i
+
+.PHONY : Logger.i
+
+# target to preprocess a source file
+Logger.cpp.i:
+	$(MAKE) -f CMakeFiles/stackoverflow_in_cpp.dir/build.make CMakeFiles/stackoverflow_in_cpp.dir/Logger.cpp.i
+.PHONY : Logger.cpp.i
+
+Logger.s: Logger.cpp.s
+
+.PHONY : Logger.s
+
+# target to generate assembly for a file
+Logger.cpp.s:
+	$(MAKE) -f CMakeFiles/stackoverflow_in_cpp.dir/build.make CMakeFiles/stackoverflow_in_cpp.dir/Logger.cpp.s
+.PHONY : Logger.cpp.s
+
 User.o: User.cpp.o
 
 .PHONY : User.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Content.o"
 	@echo "... Content.i"
 	@echo "... Content.s"
+	@echo "... Logger.o"
+	@echo "... Logger.i"
+	@echo "... Logger.s"
 	@echo "... User.o"
 	@echo "... User.i"
 	@echo "... User.s"
