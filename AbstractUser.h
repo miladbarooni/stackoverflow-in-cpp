@@ -12,9 +12,12 @@ enum UserType {
     MEMBER
 };
 
+class User;
+
 class AbstractUser {
 public:
     hash<string> pass_hash;
+    friend void write_on_log_file(string file_name, User* user);
     virtual bool authenticate(string username, string password) = 0;
     virtual void deleteAccount() = 0;
     string username;

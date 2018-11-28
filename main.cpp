@@ -12,10 +12,32 @@
 #define CLEAR "clear"
 #endif
 
-
 using namespace std;
 
 
+
+// Get current date/time, format is YYYY-MM-DD.HH:mm:ss
+const std::string currentDateTime() {
+    time_t     now = time(0);
+    struct tm  tstruct;
+    char       buf[80];
+    tstruct = *localtime(&now);
+    // Visit http://en.cppreference.com/w/cpp/chrono/c/strftime
+    // for more information about date/loggedInUsertime format
+    strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
+
+    return buf;
+}
+
+
+void write_on_log_file(string file_name, User* user)
+{
+    fstream log_file;
+    log_file.open (file_name, ios::out);
+    string log = user->email +  "\t" + user->username + "\t" + currentDateTime();
+    log_file << log;
+    log_file.close();
+}
 enum MenuState {
     START,
     LOGGED_IN,
@@ -26,8 +48,20 @@ enum MenuState {
 int id_counter = 1;
 
 int main() {
-    cout << currentDateTime()<<endl;
-    // vector for questions
+    string str;
+    fstream times_run;
+    times_run.open("AppRunTimes.txt", ios::in);
+    times_run >> str;
+    times_run.close();
+    int times = stoi(str) + 1;
+    /////////////////////////
+    string myLogFile = "log." + str + ".txt"; // This will make the log file name log.1.txt , log.2.txt ...
+    // now times to add new times to AppRunTimes.txt
+    str = to_string(times);
+    times_run.open("AppRunTimes.txt", ios::out);
+    times_run << str;
+    times_run.close();
+    // finish
     vector<Content> questions;
     User::init("SECRET_KEY");
     User * loggedInUser = nullptr;
@@ -54,6 +88,7 @@ int main() {
                             cin >> password;
                             loggedInUser = &User::login(username,password);
                             menuState = MenuState::LOGGED_IN;
+                            write_on_log_file(myLogFile, loggedInUser);
                         } catch (WrongUsernameOrPasswordException &e) {
                             last_message = e.what();
                         }
@@ -101,6 +136,7 @@ int main() {
                             cout << "Account successfully deleted\n";
                             loggedInUser = nullptr;
                             menuState = MenuState::START;
+                            break;
                         }
                         catch (DeleteAdminException &e) {
                             last_message = e.what();
@@ -127,6 +163,7 @@ int main() {
                     }
 
                 }
+                break;
             }
             case MenuState :: CONTENT:{
                 cout << "c. create question\na. answer to questions\nm. mark as duplicate(Admin only)\nu. update questions\nd. delete questions\n";
@@ -179,8 +216,12 @@ int main() {
                     {
 
                     }
-
+                    default: { // unknown input
+                        last_message = "Unknown Input\n";
+                        break;
+                    }
                 }
+                break;
             }
         }
     }
