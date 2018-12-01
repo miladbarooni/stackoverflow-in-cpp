@@ -83,18 +83,15 @@ void User::init(const string &salt) {
 }
 
 int User::printQuestions(){
-    if (contents.size() == 0)
-    {
-        cout << "You have no question"<< endl;
-        return 0;
-    }
-    int label = 1;
+
+    int label = 0;
     for (auto &squestion : contents)
     {
-        cout << "Q" << label << ". " << squestion.getBody() << endl;
         label++;
+        cout << "Q" << label << ". " << squestion.getBody() << endl;
+
     }
-    return 1;
+    return label;
 
 }
 void User::addContent(Content content) {
@@ -109,4 +106,9 @@ void User::changeQuestion(int index, Content new_question)
 void User::deleteQuestion(int index)
 {
     contents.erase(contents.begin()+index -1 );
+}
+
+string User::getEmail()
+{
+    return this->email;
 }

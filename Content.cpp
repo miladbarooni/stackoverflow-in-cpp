@@ -12,6 +12,9 @@ Content::Content(string content, ContentType content_type, int id=0)
     this->id = id;
     vector<ContentRelation> temp;
     this->relations = temp;
+    vector<Content> temp1;
+    this->answers = temp1;
+
 }
 void Content::addVisits()
 {
@@ -38,12 +41,12 @@ void Content::addToRelations(ContentRelation content_relation)
 
 void Content::printAnswers()
 {
-    if (relations.size() == 0)
+    if (answers.size() == 0)
     {
         cout << "\nNOTE:  There is no Answer for this question yet(Be first one)" << endl ;
     }
-    for (auto i = relations.begin(); i != relations.end(); ++i)
-        cout << "A." << i->getDestination()->getBody()<<endl;
+    for (auto &answer : answers)
+        cout << "A." << answer.getBody()<<endl;
 }
 
 

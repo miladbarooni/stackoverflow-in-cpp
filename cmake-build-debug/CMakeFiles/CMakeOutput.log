@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b8f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b8f4.dir/build.make CMakeFiles/cmTC_4b8f4.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4b8f4.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4b8f4.dir/testCCompiler.c.o   -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_4b8f4
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b8f4.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_4b8f4.dir/testCCompiler.c.o  -o cmTC_4b8f4 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4cc4b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cc4b.dir/build.make CMakeFiles/cmTC_4cc4b.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cc4b.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4cc4b.dir/testCCompiler.c.o   -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4cc4b
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cc4b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4cc4b.dir/testCCompiler.c.o  -o cmTC_4cc4b 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_448b6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_448b6.dir/build.make CMakeFiles/cmTC_448b6.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o   -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_448b6
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_448b6.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o  -o cmTC_448b6 
+Run Build Command:"/usr/bin/make" "cmTC_3fb6e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fb6e.dir/build.make CMakeFiles/cmTC_3fb6e.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o   -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3fb6e
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fb6e.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o  -o cmTC_3fb6e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_448b6' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3cNryR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_448b6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_448b6' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3fb6e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZrihWP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3fb6e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3fb6e' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_448b6/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_448b6.dir/build.make CMakeFiles/cmTC_448b6.dir/build]
-  ignore line: [make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o   -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_448b6]
-  ignore line: [/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_448b6.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o  -o cmTC_448b6 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3fb6e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3fb6e.dir/build.make CMakeFiles/cmTC_3fb6e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o   -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3fb6e]
+  ignore line: [/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fb6e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o  -o cmTC_3fb6e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_448b6' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3cNryR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_448b6 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3fb6e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZrihWP.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3fb6e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc3cNryR.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZrihWP.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_448b6] ==> ignore
+    arg [cmTC_3fb6e] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_448b6.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_3fb6e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd8e2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd8e2.dir/build.make CMakeFiles/cmTC_bd8e2.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd8e2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_bd8e2.dir/feature_tests.c.o   -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bd8e2
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd8e2.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_bd8e2.dir/feature_tests.c.o  -o cmTC_bd8e2 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e332b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e332b.dir/build.make CMakeFiles/cmTC_e332b.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e332b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_e332b.dir/feature_tests.c.o   -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e332b
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e332b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e332b.dir/feature_tests.c.o  -o cmTC_e332b 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-bu
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4484/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4484.dir/build.make CMakeFiles/cmTC_e4484.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4484.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_e4484.dir/feature_tests.c.o   -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e4484
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4484.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_e4484.dir/feature_tests.c.o  -o cmTC_e4484 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ed5db/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed5db.dir/build.make CMakeFiles/cmTC_ed5db.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed5db.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ed5db.dir/feature_tests.c.o   -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ed5db
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed5db.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ed5db.dir/feature_tests.c.o  -o cmTC_ed5db 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-bu
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_980f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_980f4.dir/build.make CMakeFiles/cmTC_980f4.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_980f4.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_980f4.dir/feature_tests.c.o   -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_980f4
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_980f4.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_980f4.dir/feature_tests.c.o  -o cmTC_980f4 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ab6c9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab6c9.dir/build.make CMakeFiles/cmTC_ab6c9.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab6c9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_ab6c9.dir/feature_tests.c.o   -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ab6c9
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab6c9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ab6c9.dir/feature_tests.c.o  -o cmTC_ab6c9 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-bu
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9514e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9514e.dir/build.make CMakeFiles/cmTC_9514e.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9514e.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_9514e.dir/testCXXCompiler.cxx.o -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_9514e
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9514e.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_9514e.dir/testCXXCompiler.cxx.o  -o cmTC_9514e 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9621b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9621b.dir/build.make CMakeFiles/cmTC_9621b.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9621b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_9621b.dir/testCXXCompiler.cxx.o -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9621b
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9621b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_9621b.dir/testCXXCompiler.cxx.o  -o cmTC_9621b 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c77e1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c77e1.dir/build.make CMakeFiles/cmTC_c77e1.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c77e1
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c77e1.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c77e1 
+Run Build Command:"/usr/bin/make" "cmTC_04686/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04686.dir/build.make CMakeFiles/cmTC_04686.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_04686
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04686.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_04686 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c77e1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx1dbRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c77e1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c77e1' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04686' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVnrBKa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_04686 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04686' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c77e1/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c77e1.dir/build.make CMakeFiles/cmTC_c77e1.dir/build]
-  ignore line: [make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c77e1]
-  ignore line: [/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c77e1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c77e1 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_04686/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_04686.dir/build.make CMakeFiles/cmTC_04686.dir/build]
+  ignore line: [make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/54/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_04686]
+  ignore line: [/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04686.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_04686 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-16ubuntu3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c77e1' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx1dbRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c77e1 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04686' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVnrBKa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_04686 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccx1dbRO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVnrBKa.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c77e1] ==> ignore
+    arg [cmTC_04686] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c77e1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_04686.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1cb2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1cb2.dir/build.make CMakeFiles/cmTC_c1cb2.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c1cb2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_c1cb2.dir/feature_tests.cxx.o -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c1cb2
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1cb2.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c1cb2.dir/feature_tests.cxx.o  -o cmTC_c1cb2 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_32286/fast"
+/usr/bin/make -f CMakeFiles/cmTC_32286.dir/build.make CMakeFiles/cmTC_32286.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_32286.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_32286.dir/feature_tests.cxx.o -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_32286
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32286.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_32286.dir/feature_tests.cxx.o  -o cmTC_32286 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-bu
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_62822/fast"
-/usr/bin/make -f CMakeFiles/cmTC_62822.dir/build.make CMakeFiles/cmTC_62822.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_62822.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_62822.dir/feature_tests.cxx.o -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_62822
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62822.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_62822.dir/feature_tests.cxx.o  -o cmTC_62822 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7acb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7acb7.dir/build.make CMakeFiles/cmTC_7acb7.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7acb7.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_7acb7.dir/feature_tests.cxx.o -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7acb7
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7acb7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7acb7.dir/feature_tests.cxx.o  -o cmTC_7acb7 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-bu
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_17a81/fast"
-/usr/bin/make -f CMakeFiles/cmTC_17a81.dir/build.make CMakeFiles/cmTC_17a81.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_17a81.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_17a81.dir/feature_tests.cxx.o -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_17a81
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17a81.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_17a81.dir/feature_tests.cxx.o  -o cmTC_17a81 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_aa4f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa4f8.dir/build.make CMakeFiles/cmTC_aa4f8.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa4f8.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_aa4f8.dir/feature_tests.cxx.o -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_aa4f8
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4f8.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_aa4f8.dir/feature_tests.cxx.o  -o cmTC_aa4f8 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-bu
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82904/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82904.dir/build.make CMakeFiles/cmTC_82904.dir/build
-make[1]: Entering directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_82904.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_82904.dir/feature_tests.cxx.o -c /home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_82904
-/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82904.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_82904.dir/feature_tests.cxx.o  -o cmTC_82904 
-make[1]: Leaving directory '/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cfec0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cfec0.dir/build.make CMakeFiles/cmTC_cfec0.dir/build
+make[1]: Entering directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cfec0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_cfec0.dir/feature_tests.cxx.o -c /home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cfec0
+/snap/clion/54/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfec0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_cfec0.dir/feature_tests.cxx.o  -o cmTC_cfec0 
+make[1]: Leaving directory '/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

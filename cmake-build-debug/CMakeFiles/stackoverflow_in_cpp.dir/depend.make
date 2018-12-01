@@ -4,9 +4,6 @@
 CMakeFiles/stackoverflow_in_cpp.dir/Content.cpp.o: ../Content.cpp
 CMakeFiles/stackoverflow_in_cpp.dir/Content.cpp.o: ../Content.h
 
-CMakeFiles/stackoverflow_in_cpp.dir/Logger.cpp.o: Logger.cpp
-CMakeFiles/stackoverflow_in_cpp.dir/Logger.cpp.o: Logger.h
-
 CMakeFiles/stackoverflow_in_cpp.dir/User.cpp.o: ../AbstractUser.h
 CMakeFiles/stackoverflow_in_cpp.dir/User.cpp.o: ../Content.h
 CMakeFiles/stackoverflow_in_cpp.dir/User.cpp.o: ../Exceptions.h

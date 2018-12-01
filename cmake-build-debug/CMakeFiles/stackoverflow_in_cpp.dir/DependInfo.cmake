@@ -4,10 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/milord/Documents/stackoverflow-in-cpp/Content.cpp" "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/Content.cpp.o"
-  "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/Logger.cpp" "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/Logger.cpp.o"
-  "/home/milord/Documents/stackoverflow-in-cpp/User.cpp" "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/User.cpp.o"
-  "/home/milord/Documents/stackoverflow-in-cpp/main.cpp" "/home/milord/Documents/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/main.cpp.o"
+  "/home/milord/Desktop/Aria/stackoverflow-in-cpp/Content.cpp" "/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/Content.cpp.o"
+  "/home/milord/Desktop/Aria/stackoverflow-in-cpp/User.cpp" "/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/User.cpp.o"
+  "/home/milord/Desktop/Aria/stackoverflow-in-cpp/main.cpp" "/home/milord/Desktop/Aria/stackoverflow-in-cpp/cmake-build-debug/CMakeFiles/stackoverflow_in_cpp.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

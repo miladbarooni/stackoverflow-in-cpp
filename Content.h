@@ -42,10 +42,14 @@ public:
     vector<ContentRelation> relations;
     void setBody(string new_content);
     void setId(int new_id);
+    vector<Content> answers;
+    bool isDuplicate = false;
+    int duplicateId = -1;
+
 private:
     string body;
     ContentType contentType;
-    int visits; 
+    int visits;
     int id;
 
 

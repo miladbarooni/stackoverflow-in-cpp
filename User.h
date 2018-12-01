@@ -12,6 +12,7 @@ public:
     int printQuestions();
     void changeQuestion(int index, Content new_question);
     void deleteQuestion(int index);
+    string getEmail();
 public:
     void set_password(string password);
     bool check_password(string password);

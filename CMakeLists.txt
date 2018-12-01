@@ -7,7 +7,9 @@ include_directories(.)
 
 add_executable(stackoverflow_in_cpp
     AbstractUser.h
+    Content.cpp
+    Content.h
     Exceptions.h
     main.cpp
     User.cpp
-    User.h Content.cpp Content.h cmake-build-debug/Logger.cpp cmake-build-debug/Logger.h)
+    User.h)

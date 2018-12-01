@@ -12,7 +12,7 @@ enum UserType {
     MEMBER
 };
 
-class User; // added for use in write_on_log
+class User;
 
 class AbstractUser {
 public:
