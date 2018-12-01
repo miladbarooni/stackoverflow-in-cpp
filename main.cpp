@@ -16,6 +16,36 @@
 
 using namespace std;
 
+void openInfo() {
+    ifstream i0("Userinfo.txt");
+    if (!i0.is_open()) {
+        ofstream i22("Userinfo.txt");
+
+        i22.close();
+
+    }
+    else {
+        i0.close();
+    }
+}
+
+void readInfo() {
+    ifstream fileinfo("Userinfo.txt");
+    string username, pass, email;
+    while (fileinfo >> username >> pass >> email)
+    {
+        User::users.emplace_back(username, pass, email, UserType::MEMBER);
+    }
+    fileinfo.close();
+}
+
+void writeInfo(string email, string pass, string username) {
+    ofstream fileinfo("Userinfo.txt", ios_base::app);
+    fileinfo <<endl<< username << "  " << pass << "  " << email;
+    fileinfo.close();
+}
+
+
 class LogData {
 public:
 
@@ -151,8 +181,7 @@ enum MenuState {
 int id_counter = 1;
 
 int main() {
-
-
+    openInfo();
     LogData *d = LogData::getLogData();//in 5 khat avale main copy she
     d->init();
     d->fillx();
@@ -178,10 +207,11 @@ int main() {
     // finish
     vector<Content> questions;
     User::init("SECRET_KEY");
+
     User *loggedInUser = nullptr;
     MenuState menuState = MenuState::START;
     string last_message;
-
+    readInfo();
     char choice;
     while (menuState != MenuState::END) {
 
@@ -222,6 +252,7 @@ int main() {
                             d->writelog(loggedInUser); // added //
                             menuState = MenuState::LOGGED_IN;
                             last_message = "User signed up!\n";
+                            writeInfo(email, password, username);
                         } catch (UsernameAlreadyExistsException &e) {
                             last_message = e.what();
                             break;

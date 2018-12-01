@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/milord/Desktop/Aria/stackoverflow-in-cpp/. 
+CXX_INCLUDES = -I"/home/milord/Desktop/advance programming/stackoverflow-in-cpp/." 
 

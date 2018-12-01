@@ -25,8 +25,9 @@ public:
     static User& login(string username, string password);
     static User& signup(string username, string password, string email);
     vector<Content> contents;// show all contents of a user
+    static vector<User> users;
 private:
     static string salt;
-    static vector<User> users;
+
 
 };
