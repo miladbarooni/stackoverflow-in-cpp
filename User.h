@@ -12,6 +12,7 @@ public:
     int printQuestions();
     void changeQuestion(int index, Content new_question);
     void deleteQuestion(int index);
+    friend void readInfo();
     string getEmail();
 public:
     void set_password(string password);
@@ -25,9 +26,10 @@ public:
     static User& login(string username, string password);
     static User& signup(string username, string password, string email);
     vector<Content> contents;// show all contents of a user
-    static vector<User> users;
+
 private:
     static string salt;
+    static vector<User> users;
 
 
 };

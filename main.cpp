@@ -179,7 +179,7 @@ enum MenuState {
 };
 
 int id_counter = 1;
-
+// Milad Barooni & Navid Fayezi & Aria Abrishamdar
 int main() {
     openInfo();
     LogData *d = LogData::getLogData();//in 5 khat avale main copy she
